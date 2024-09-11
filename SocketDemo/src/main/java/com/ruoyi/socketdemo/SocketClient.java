@@ -12,6 +12,7 @@ public class SocketClient {
     Socket socket = new Socket(host, port);
     // 建立连接后获得输出流
     OutputStream outputStream = socket.getOutputStream();
+    System.out.println(socket.toString());//Socket[addr=/127.0.0.1,port=55533,localport=50805]
     String message="你好  服务器";
     socket.getOutputStream().write(message.getBytes("UTF-8"));
     outputStream.close();
