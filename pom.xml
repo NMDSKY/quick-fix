@@ -16,6 +16,7 @@
         <module>examples</module>
         <module>spring-fixer</module>
         <module>spring-cloud-fixer</module>
+        <module>SocketDemo</module>
     </modules>
 
     <properties>
