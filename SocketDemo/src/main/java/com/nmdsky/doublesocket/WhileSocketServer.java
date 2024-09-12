@@ -1,4 +1,4 @@
-package com.ruoyi.doublesocket;
+package com.nmdsky.doublesocket;
 
 import java.io.IOException;
 import java.io.InputStream;

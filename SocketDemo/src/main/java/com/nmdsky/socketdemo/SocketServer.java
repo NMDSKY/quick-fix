@@ -1,4 +1,4 @@
-package com.ruoyi.socketdemo;
+package com.nmdsky.socketdemo;
 
 import java.io.InputStream;
 import java.net.ServerSocket;
